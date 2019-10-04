@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="../src/client/styles/resets.css">
+        <link rel="stylesheet" href="../src/client/styles/base.css">
+        <link rel="stylesheet" href="../src/client/styles/header.css">
+        <link rel="stylesheet" href="../src/client/styles/form.css">
+        <link rel="stylesheet" href="../src/client/styles/footer.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                Logo
+            </div>
+            <div class="">
+                navigation
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form>
+                    <input id="url" type="text" name="input" value="" placeholder="URL here...">
+                    <button id="submit">submit</button>
+                </form>
+            <section>
+            <section>
+                <strong>Form Results:</strong>
+                <div id="results">
+                    <label for="polariry">Polarity</label>
+                    <div id="polarity"></div>
+                    <label for="subjectivity">Subjectivity</label>
+                    <div id="subjectivity"></div>
+                    <label for="text">Text</label>
+                    <div id="text"></div>
+                    <label for="polarity_confidence">Polarity Confidence</label>
+                    <div id="polarity_confidence"></div>
+                    <label for="subjectivity_confidence">Subjectivity Confidence</label>
+                    <div id="subjectivity_confidence"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            Evaluate news article
+        </footer>
+
+    </body>
+</html>
