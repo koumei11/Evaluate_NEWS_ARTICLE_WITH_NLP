@@ -2,23 +2,14 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
-        <link rel="stylesheet" href="../src/client/styles/resets.css">
-        <link rel="stylesheet" href="../src/client/styles/base.css">
-        <link rel="stylesheet" href="../src/client/styles/header.css">
-        <link rel="stylesheet" href="../src/client/styles/form.css">
-        <link rel="stylesheet" href="../src/client/styles/footer.css">
+        <title>Evaluate a news article with Natural Language Processing</title>
+
     </head>
 
     <body>
 
         <header>
-            <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
-            </div>
+            <h1>Evaluate a news article with Natural Language Processing</h1>
         </header>
 
         <main>
@@ -48,6 +39,15 @@
         <footer>
             Evaluate news article
         </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
 
     </body>
 </html>

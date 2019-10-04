@@ -1,0 +1,11 @@
+$head_color: #ffa11c;
+
+header {
+    h1 {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 28px;
+        color: $head_color;
+        text-align: center;
+    }
+}

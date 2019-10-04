@@ -1,6 +1,11 @@
 import handleSubmit from './js/formHandler'
 import render from './render/renderJS'
 import validator from './js/urlValidator'
+import './styles/resets.scss'
+import './styles/base.scss'
+import './styles/form.scss'
+import './styles/footer.scss'
+import './styles/header.scss'
 
 var baseUrl = "http://localhost:8081/test?url=";
 var submit = document.getElementById('submit');
